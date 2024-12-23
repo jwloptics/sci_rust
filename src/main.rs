@@ -1,3 +1,6 @@
+mod epsilon;
+
 fn main() {
-    println!("Hello, world!");
+    let eps: f64 = epsilon::machine_epsilon();
+    println!("Epsilon: {}", eps);    
 }
